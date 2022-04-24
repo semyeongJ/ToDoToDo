@@ -5,29 +5,50 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/login.css">
   <title>Momentum</title>
 </head>
 <body>
-  <form id="login-form" class="hidden">
-    <input required
-    maxlength="15"
-    type="text" 
-    placeholder="What is your name?"/>
-    <input type="submit" value="Log In"><br/>
-  </form> 
-  <h2 id="clock">00:00:00</h2>
-  <h1 id="greeting" class="hidden"></h1>
-  <form id="todo-form">
-    <input type="text" placeholder="Write to Do and Press Enter" required>
-  </form>
-  <ul id="todo-list"></ul>
-  <div id="quote">
-    <span></span>
-    <span></span>
+  <div class="wrap">
+    <h1 class="title nunitosans-semi-bold-downriver-28px">
+      <span class="nunitosans-semi-bold-downriver-28px">TodoTodo</span>
+    </h1>
+    <!-- login -->
+    <!-- <form id="login-form" class="hidden">
+      <input required
+      maxlength="15"
+      type="text" 
+      placeholder="What is your name?"/>
+      <input type="submit" value="Log In"><br/>
+    </form>  -->
+    <!-- clock -->
+    <h2 id="clock">00:00:00</h2>
+    <!-- greeting -->
+    <h1 id="greeting" class="hidden"></h1>
+    <!-- todo-form -->
+    <form id="todo-form">
+      <input type="text" placeholder="Write to Do and Press Enter" required>
+    </form>
+    <!-- todo-list -->
+    <ul id="todo-list"></ul>
+    <div id="quote">
+      <span></span>
+      <span></span>
+    </div>
+    <!-- weather -->
+    <div id="weather">
+      <span></span>
+      <span></span>
+    </div>
   </div>
-  <div id="weather">
-    <span></span>
-    <span></span>
+  <!-- login Window -->
+  <div id="login_window">
+    <form id="login_form">
+      <p class="login_title">What is your name?</p>
+      <input type="text" class="login_input" maxlength="15" placeholder="your name" autofocus="">
+      <div class="line"></div>
+      <button type="submit" class="login_btn">Login</button>
+    </form>
   </div>
   <script src="js/greetings.js"></script>
   <script src="js/clock.js"></script>

@@ -1,0 +1,34 @@
+.overlap-group {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  min-height: 536px;
+  padding: 5px 36px;
+  width: 955px;
+}
+
+.link {
+  letter-spacing: 0.48px;
+  margin-left: 23px;
+  margin-top: 19px;
+  min-height: 33px;
+}
+
+.linkList_line {
+  height: 2px;
+  margin-left: 15px;
+  margin-top: 18px;
+  width: 111px;
+}
+
+.linkList {
+  letter-spacing: normal;
+  margin-left: 39px;
+  margin-top: 20px;
+  min-height: 16px;
+  min-width: 66px;
+  text-align: center;
+}
