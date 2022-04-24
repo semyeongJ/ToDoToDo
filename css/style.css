@@ -10,7 +10,6 @@
   list-style: none;
 }
 .wrap{
-  height: 100vh;
   mix-blend-mode: normal;
   /* Background/Mix Linear Background */
   background: linear-gradient(120.6deg, #FFE7E7 3.53%, #D1DCEB 58.36%, #E9F2FD 100%);

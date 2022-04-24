@@ -37,10 +37,14 @@ function handleToDoSubmit(e){
     text:newTodo,
     id: Date.now(),
   }
-  toDoInput.value = ""; //이미 toDoInput의 value를 newTodo라는 변수에 저장해놔서 value를 ""로 초기화해도 newTodo에 영향을 끼치지않음
-  toDos.push(newTodoObj);
-  paintToDo(newTodoObj);
-  saveToDos();
+  if(toDos.length>10){
+    alert("최대 10개까지 생성가능합니다.");
+  } else{
+    toDoInput.value = ""; //이미 toDoInput의 value를 newTodo라는 변수에 저장해놔서 value를 ""로 초기화해도 newTodo에 영향을 끼치지않음
+    toDos.push(newTodoObj);
+    paintToDo(newTodoObj);
+    saveToDos();
+  }
 }
 
 todoForm.addEventListener("submit",handleToDoSubmit)
