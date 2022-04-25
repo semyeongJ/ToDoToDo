@@ -1,6 +1,6 @@
 # ToDoToDo
 
-nomadcoders의 vanillaJS강의를  만든 Momentum입니다.</br>
+nomadcoders의 vanillaJS강의를 수료하며 만든 Momentum입니다.</br>
 
 
 <h3>사이트</h3>
