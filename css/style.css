@@ -9,7 +9,7 @@
   box-sizing: border-box;
   list-style: none;
 }
-.wrap {
+body {
   mix-blend-mode: normal;
   /* Background/Mix Linear Background */
   background: linear-gradient(120.6deg, #ffe7e7 3.53%, #d1dceb 58.36%, #e9f2fd 100%);
@@ -21,7 +21,6 @@
   display: flex;
   flex-direction: column;
   height: 100%;
-  padding: 70px 0;
   width: 100%;
 }
 .title {
